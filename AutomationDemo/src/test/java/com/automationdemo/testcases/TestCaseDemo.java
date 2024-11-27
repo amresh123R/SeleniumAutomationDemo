@@ -15,6 +15,7 @@ public class TestCaseDemo extends BaseTest {
 		LoginPage obj = new LoginPage(driver);
 		obj.loginPortal(cdp.getUsername(), cdp.getPassword());
 		System.out.println("Doing changes in GitHub");
+		System.out.println("Doing push command");
 
 	}
 

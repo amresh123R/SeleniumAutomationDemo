@@ -21,6 +21,9 @@ public class TestDataDrivenLogin extends BaseTest{
 	{
 		LoginPage obj = new LoginPage(driver);
 		obj.loginPortal(username,password);
+		System.out.println("Doing push command");
+		System.out.println("Doing push command");
+		System.out.println("Doing push command");
 		
 		if(username.equals(cdp.getUsername()) && password.equals(cdp.getPassword()))
 		{
