@@ -14,6 +14,7 @@ public class TestCaseDemo extends BaseTest {
 	public void verifyLogin() {
 		LoginPage obj = new LoginPage(driver);
 		obj.loginPortal(cdp.getUsername(), cdp.getPassword());
+		System.out.println("Doing changes in GitHub");
 
 	}
 
